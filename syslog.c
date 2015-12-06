@@ -4,8 +4,8 @@
 	# tail -f /var/log/auth.log
 
 	Neste exemplo, a função setlogmask é utilizada para
-	permitir somente a chamada ao syslog para que a mensagem
-	com o level LOG_DEBUG seja executada.
+	permitir somente a chamada ao syslog que trabalhe com
+	mensagens de nível LOG_DEBUG.
 */
 
 #include <stdio.h>
